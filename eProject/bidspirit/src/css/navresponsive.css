@@ -1,0 +1,60 @@
+@media (max-width: 1024px) {
+    .nav-input {
+      display: none; /* Ẩn ô input mặc định */
+    }
+  
+    .input-wrapper.show .nav-input {
+      display: block; /* Hiển thị ô input khi cần thiết */
+    }
+  
+    .search-container {
+      justify-content: flex-end; /* Đẩy phần tìm kiếm về phía bên phải */
+    }
+  
+    .input-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #000;
+      padding: 10px;
+      z-index: 1000;
+      display: none; /* Mặc định ẩn input-wrapper */
+    }
+  
+    .input-wrapper.show {
+      display: flex; /* Hiển thị input-wrapper khi có class show */
+    }
+  
+    .nav-links,
+    .btn-nav,
+    .logo {
+      display: flex; /* Hiển thị lại các phần còn lại của navbar */
+    }
+  
+    .close-icon {
+      display: block; /* Hiển thị nút đóng khi cần thiết */
+    }
+  
+    .search-icon {
+      position: relative;
+      z-index: 1001; /* Đảm bảo icon tìm kiếm luôn ở trên cùng */
+    }
+  }
+  
+  
+  @media (min-width: 1024px) {
+    .nav-input {
+      display: block;
+    }
+  
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+  
+    .close-icon {
+      display: none;
+    }
+  }

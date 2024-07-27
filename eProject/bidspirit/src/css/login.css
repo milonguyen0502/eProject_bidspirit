@@ -1,0 +1,26 @@
+.login{
+    margin: 0 auto;
+    color: white;
+}
+.login td{
+
+    padding: 5px;
+}
+.login a{
+    color: blue;
+    cursor: pointer;
+    font-size: 14px;
+}
+.login input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-login input{
+    background-color: #0091ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .cart-page {
+    padding: 40px 20px;
+    background-color: #222222;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  p {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .cart-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .cart-items {
+    width: 60%;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .cart-item img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item-details h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart-item-details p {
+    margin: 0 0 10px;
+    color: #555;
+  }
+  
+  .cart-item-details .sku,
+  .cart-item-details .final-sale {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  .cart-item-details .shipping-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-details .shipping-info i {
+    margin-right: 5px;
+  }
+  
+  .cart-item-details .delete-btn {
+    background: none;
+    border: none;
+    color: #ff0000;
+    cursor: pointer;
+    margin-top: auto;
+  }
+  
+  .cart-item-details .price {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .cart-summary {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 35%;
+    border-radius:10px;
+  }
+  
+  .cart-summary h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .summary-item.total {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .btn-order {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color:#0091ff;
+    color: #fff;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .btn-order:hover {
+    background-color: #007acc;
+  }
+  

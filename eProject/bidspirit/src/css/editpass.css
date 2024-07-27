@@ -1,0 +1,33 @@
+.editpass {
+    margin: 0 auto;
+    color: white;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.editpass td {
+    padding: 10px 0;
+}
+
+.editpass input {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn-editpass input {
+    background-color: #0091ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 16px;
+    width: 100%;
+}
+
+.editpass h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}

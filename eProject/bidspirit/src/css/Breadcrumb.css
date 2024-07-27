@@ -1,0 +1,30 @@
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+}
+
+ul.breadcrumb li {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+ul.breadcrumb li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 14px;
+  display: block;
+  border-radius: 12px; /* Ensure all links have border-radius */
+}
+
+ul.breadcrumb li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul.breadcrumb li.active-breadcrumb a {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px; /* Ensure active links have border-radius */
+}
+  
